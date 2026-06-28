@@ -1,32 +1,22 @@
 # Go to this website to download
 mondownload.netlify.app
+# iNitro-for-MacOS
+A lightweight macOS app with a focus timer, to-do list, habit tracker, and unit converter — one shell script, no Electron, no Chrome.
 
-# PlayMon-for-MacOS
-A lightweight macOS system monitor with a to-do list, habit tracker, and unit converter — one shell script, no Electron, no Chrome.
+The UI runs directly in your browser. A small launcher opens the app in a chromeless window using your installed Chromium-based browser (Chrome, Brave, Edge, or Chromium), falling back to Safari.
 
- The UI runs in Apple's native WKWebView (same engine as Safari). A small Python HTTP server runs locally on port `9876` and feeds live system stats to the UI every second.
-
- ## Install Terminal Command (Macos Seqoia or later)
-bash build-playmon.sh
-## Temperature
-
-CPU temperature requires one of the following:
-
-- [`osx-cpu-temp`](https://github.com/lavoiesl/osx-cpu-temp) — `brew install osx-cpu-temp`
-- [`iStats`](https://github.com/Chris911/iStats) — `gem install iStats`
-
-Without either, the temperature field shows `N/A`. Everything else works fine.
+## Install Terminal Command (macOS Sequoia or later)
+```bash
+bash ~/Downloads/build-iNitro.sh
+```
 
 ## Dock
-
-Drag `PlayMon.app` from your Desktop to the Dock to pin it.
+Drag `iNitro.app` from your Desktop to the Dock to pin it.
 
 ## Uninstall
-
 ```bash
-rm -rf ~/Desktop/PlayMon.app ~/.playmon-data
+rm -rf ~/Desktop/iNitro.app
 ```
 
 ## License
-
 MIT
