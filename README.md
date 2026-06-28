@@ -1,5 +1,5 @@
-# Go to this html to download
-To download go to this Website :https://mondownload.netlify.app/
+# Go to this website to download
+mondownload.netlify.app
 
 # PlayMon-for-MacOS
 A lightweight macOS system monitor with a to-do list, habit tracker, and unit converter — one shell script, no Electron, no Chrome.
