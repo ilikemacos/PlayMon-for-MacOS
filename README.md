@@ -3,6 +3,8 @@ A lightweight macOS system monitor with a to-do list, habit tracker, and unit co
 
  The UI runs in Apple's native WKWebView (same engine as Safari). A small Python HTTP server runs locally on port `9876` and feeds live system stats to the UI every second.
 
+ ## Install Terminal Command (Macos Seqoia or later)
+bash build-playmon.sh
 ## Temperature
 
 CPU temperature requires one of the following:
